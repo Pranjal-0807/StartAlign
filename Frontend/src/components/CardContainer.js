@@ -8,7 +8,7 @@ const CardContainer = () => {
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const url = "http://localhost:7000/tasks";
+  const url = "https://startalign.onrender.com/tasks";
 
   useEffect(() => {
     const fetchTasks = async () => {

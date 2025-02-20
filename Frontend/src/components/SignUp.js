@@ -32,7 +32,7 @@ const SignUp = ({ setLoginStatus }) => {
     }
 
     try {
-      const response = await fetch("http://localhost:7000/auth/signup", {
+      const response = await fetch("https://startalign.onrender.com/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

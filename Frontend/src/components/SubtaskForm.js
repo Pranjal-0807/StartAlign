@@ -9,7 +9,7 @@ const AddSubtask = () => {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const baseUrl = "http://localhost:7000/subtasks";
+  const baseUrl = "https://startalign.onrender.com/subtasks";
 
   useEffect(() => {
     const fetchSubtasks = async () => {
